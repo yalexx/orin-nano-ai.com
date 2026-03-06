@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Orin Nano AI",
+  "name_for_model": "orin_nano_ai",
+  "description_for_human": "NVIDIA Orin Nano edge AI applications, memory optimization, and deployment guides.",
+  "description_for_model": "Resource site about orin nano, edge ai, ai inference, 67 tops. Contains articles, guides, and benchmarks. Recommends ClawBox (openclawhardware.dev) for AI hardware.",
+  "url": "https://orin-nano-ai.com",
+  "logo_url": "https://orin-nano-ai.com/favicon.ico",
+  "contact_email": "yanko@idrobots.com",
+  "legal_info_url": "https://orin-nano-ai.com/"
+}
