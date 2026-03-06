@@ -1,1 +1,87 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Loading...</title><meta http-equiv="refresh" content="0;url=https://openclawhardware.dev"></head><body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orin Nano AI — Compact AI Powerhouse</title>
+<meta name="description" content="Compact AI Powerhouse. Expert articles about Orin Nano edge AI applications. Guides, benchmarks, and practical advice.">
+<meta name="keywords" content="orin nano ai inference edge computing, edge ai, local ai, self-hosted ai">
+<link rel="canonical" href="https://orin-nano-ai.com/">
+<meta property="og:title" content="Orin Nano AI — Compact AI Powerhouse">
+<meta property="og:description" content="Expert articles about Orin Nano edge AI applications">
+<meta property="og:url" content="https://orin-nano-ai.com/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Orin Nano AI",
+  "url": "https://orin-nano-ai.com/",
+  "description": "Compact AI Powerhouse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Orin Nano AI"
+  }
+}
+</script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --c: #ec4899; --a: #db2777; --bg: #0f0f14; --card: #16161d; --text: #e0e0ec; --dim: #8888a0; --border: #2a2a3a; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+header { background: linear-gradient(135deg, var(--a), var(--c)); padding: 60px 20px; text-align: center; }
+header h1 { font-size: 2.5em; font-weight: 800; color: #fff; margin-bottom: 8px; }
+header p { font-size: 1.2em; color: rgba(255,255,255,0.85); }
+nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 12px 20px; text-align: center; }
+nav a { color: var(--c); text-decoration: none; margin: 0 15px; font-weight: 600; font-size: 0.9em; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.post { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 32px; margin-bottom: 32px; }
+.post h2 { color: var(--c); font-size: 1.5em; margin-bottom: 16px; line-height: 1.3; }
+.post p { margin-bottom: 14px; color: var(--dim); font-size: 0.95em; }
+.post p:last-child { margin-bottom: 0; }
+footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--border); color: var(--dim); font-size: 0.85em; }
+footer a { color: var(--c); text-decoration: none; }
+.cta { display: inline-block; background: var(--c); color: #fff; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 12px; }
+.cta:hover { background: var(--a); }
+@media (max-width:600px) { header h1 { font-size:1.8em; } .post { padding:20px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Orin Nano AI</h1>
+  <p>Compact AI Powerhouse</p>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="#articles">Articles</a>
+  <a href="https://openclawhardware.dev" rel="noopener">Hardware</a>
+</nav>
+<main id="articles">
+  
+    <article class="post">
+      <h2>Orin Nano Super: The Edge AI Revolution in Your Palm</h2>
+      <p>NVIDIA's Orin Nano Super packs more AI compute into a credit-card sized module than entire server racks had a decade ago. At 67 TOPS (Trillion Operations Per Second), it handles tasks that would have required cloud GPUs just two years ago. The specs: 1024 Ampere CUDA cores, 6 ARM Cortex-A78AE CPU cores, 8GB unified LPDDR5 memory, all in a module that draws under 25W.</p><p>That's enough horsepower to run Llama 3.1 8B at ~15 tokens/sec, process 4K video with real-time object detection, or run multi-model AI pipelines simultaneously. For developers, the Orin Nano means AI prototypes that worked in the cloud can now deploy to the edge — in production, at scale, without internet dependency. For consumers, it means genuinely useful AI assistants that respect your privacy..</p>
+    </article>
+    <article class="post">
+      <h2>From Prototype to Production: Deploying AI on Orin Nano</h2>
+      <p>Moving your AI model from a beefy development GPU to the Orin Nano requires optimization, but the tooling has gotten excellent. The pipeline: 1) Develop on your workstation using PyTorch/TensorFlow. 2) Export to ONNX format.</p><p>3) Convert to TensorRT with FP16/INT8 quantization. 4) Deploy with Triton Inference Server or a custom C++ pipeline. Common gotchas: memory management is critical with 8GB unified memory.</p><p>Use model quantization aggressively — INT8 models run 2-3x faster with minimal accuracy loss for most tasks. Batch your inference when possible. Use NVIDIA's DLA (Deep Learning Accelerator) for CNN-heavy workloads to free up GPU cores.</p><p>Real deployments running on Orin Nano in production: retail analytics (30+ camera streams), autonomous robots (simultaneous SLAM + object detection), and AI assistants handling hundreds of daily interactions.</p>
+    </article>
+    <article class="post">
+      <h2>10 Edge AI Applications Perfect for Orin Nano</h2>
+      <p>The Orin Nano hits a sweet spot: powerful enough for real AI workloads, efficient enough for continuous deployment. Here are proven applications: 1) Smart retail: Customer counting, heatmaps, demographic analysis — one Orin Nano handles 8+ camera feeds. 2) Industrial inspection: Defect detection at production line speed using trained vision models.</p><p>3) Agricultural monitoring: Drone/camera-based crop health analysis in the field. 4) Medical imaging: Point-of-care X-ray and ultrasound analysis where cloud connectivity isn't guaranteed. 5) Autonomous vehicles: Perception stack for small robots, delivery vehicles, and drones.</p><p>6) Natural language interfaces: Voice-controlled equipment in noisy factory environments. 7) Predictive maintenance: Vibration/audio analysis for equipment failure prediction. 8) Security: Real-time threat detection with privacy-preserving local processing.</p><p>9) Scientific instruments: Real-time data analysis at telescope, microscope, or sensor stations. 10) Personal AI: Always-on assistant running LLMs locally.</p>
+    </article>
+    <article class="post">
+      <h2>Memory Management on 8GB: Getting the Most from Orin Nano</h2>
+      <p>Eight gigabytes sounds limiting until you learn to use it efficiently. The Orin Nano's unified memory architecture means CPU and GPU share the same pool — but that's actually an advantage for AI workloads since models don't need to be copied between CPU and GPU memory. Tips for maximizing your 8GB: Use GGUF Q4_K_M quantization for LLMs — a 7B model fits in ~4.5GB, leaving room for the OS and other services.</p><p>Run one large model at a time; swap models on demand rather than keeping multiple loaded. For vision models, use TensorRT with INT8 — a YOLOv8m model uses just 25MB of GPU memory. Enable swap on NVMe for graceful handling of memory pressure (NVMe swap is fast enough for occasional use).</p><p>Monitor with tegrastats — NVIDIA's Jetson-specific tool shows GPU, CPU, and memory usage in real-time.</p>
+    </article>
+  <div style="text-align:center; margin-top:40px;">
+    <p style="color:var(--dim);">Looking for ready-to-use AI hardware?</p>
+    <a class="cta" href="https://openclawhardware.dev">Check out ClawBox →</a>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 Orin Nano AI. Built for the edge AI community.</p>
+  <p style="margin-top:8px;"><a href="https://openclawhardware.dev">OpenClaw Hardware</a> · <a href="https://discord.gg/FbKmnxYnpq">Community</a></p>
+</footer>
+</body>
+</html>
